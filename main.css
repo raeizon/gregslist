@@ -1,0 +1,103 @@
+header {
+  position: fixed;
+  background-color: #e6e6e6;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "arial" , sans-serif;
+}
+
+.logo{
+  font-size: 12px;
+  position: relative;
+  display: inline-block;
+
+}
+
+.nav-top {
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
+
+.search-section {
+  margin: 100px 50px 0 ;
+
+}
+
+.searchbar {
+  position: relative;
+  width: 500px;
+  font-size: 20px;
+  border-radius: 1px;
+  margin-bottom: 20px;
+
+}
+
+.magnifying-glass-img {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  
+  top: 100px;
+}
+
+.pages {
+  display: inline-block;
+  position: absolute;
+  left: 55px;
+
+}
+
+button  {
+  display: inline-block;
+  border: 2px solid #e6e6e6;
+  background-color: white;
+  font-size: 14px;
+  font-weight: normal;
+
+}
+
+.page-numbers {
+  display: inline-block;
+  border: 2px solid #e6e6e6;
+}
+
+.prev-button::before {
+  content: "< "
+}
+
+.next-button::after {
+  content: " >"
+}
+
+li {
+  list-style: none;
+}
+
+.listing {
+  position: relative;
+  top: 50px;
+}
+
+.date {
+  padding-right: 10px;
+}
+
+.location {
+  padding-left: 10px;
+}
+
+
+
+
